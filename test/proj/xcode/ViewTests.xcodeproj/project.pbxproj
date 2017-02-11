@@ -28,30 +28,6 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		114F64B91BE09A4E000CE3EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 114F64B31BE09A4E000CE3EE /* cinder-view.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1104F3C917753F10003EAA2B;
-			remoteInfo = "cinder-view-mac";
-		};
-		114F64BB1BE09A4E000CE3EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 114F64B31BE09A4E000CE3EE /* cinder-view.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 11B0421C179B90450034BEE2;
-			remoteInfo = "cinder-view-ios";
-		};
-		114F651E1BE0AB6E000CE3EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 114F64B31BE09A4E000CE3EE /* cinder-view.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 1104F3C817753F10003EAA2B;
-			remoteInfo = "cinder-view-mac";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -61,31 +37,31 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		1118C06519AA386600F0D18B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1118C06719AA388500F0D18B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		113443091C73F7350033C5B0 /* FilterTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FilterTest.cpp; path = ../src/FilterTest.cpp; sourceTree = "<group>"; };
-		1134430A1C73F7350033C5B0 /* FilterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterTest.h; path = ../src/FilterTest.h; sourceTree = "<group>"; };
-		114F64AB1BE09841000CE3EE /* ViewTestsApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewTestsApp.cpp; path = ../src/ViewTestsApp.cpp; sourceTree = "<group>"; };
-		114F64AC1BE09841000CE3EE /* ScrollTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScrollTests.cpp; path = ../src/ScrollTests.cpp; sourceTree = "<group>"; };
-		114F64AD1BE09841000CE3EE /* ScrollTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollTests.h; path = ../src/ScrollTests.h; sourceTree = "<group>"; };
-		114F64AE1BE09841000CE3EE /* BasicViewTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicViewTests.cpp; path = ../src/BasicViewTests.cpp; sourceTree = "<group>"; };
-		114F64AF1BE09841000CE3EE /* BasicViewTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicViewTests.h; path = ../src/BasicViewTests.h; sourceTree = "<group>"; };
-		114F64B31BE09A4E000CE3EE /* cinder-view.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "cinder-view.xcodeproj"; path = "../../xcode/cinder-view.xcodeproj"; sourceTree = "<group>"; };
-		114F652F1BE0B1D4000CE3EE /* ControlsTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ControlsTest.cpp; path = ../src/ControlsTest.cpp; sourceTree = "<group>"; };
-		114F65301BE0B1D4000CE3EE /* ControlsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlsTest.h; path = ../src/ControlsTest.h; sourceTree = "<group>"; };
-		11533B8C1C39096800933145 /* MultiTouchTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiTouchTest.cpp; path = ../src/MultiTouchTest.cpp; sourceTree = "<group>"; };
-		11533B8D1C39096800933145 /* MultiTouchTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiTouchTest.h; path = ../src/MultiTouchTest.h; sourceTree = "<group>"; };
+		113443091C73F7350033C5B0 /* FilterTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FilterTest.cpp; path = ../../src/FilterTest.cpp; sourceTree = "<group>"; };
+		1134430A1C73F7350033C5B0 /* FilterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterTest.h; path = ../../src/FilterTest.h; sourceTree = "<group>"; };
+		114F64AB1BE09841000CE3EE /* ViewTestsApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewTestsApp.cpp; path = ../../src/ViewTestsApp.cpp; sourceTree = "<group>"; };
+		114F64AC1BE09841000CE3EE /* ScrollTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScrollTests.cpp; path = ../../src/ScrollTests.cpp; sourceTree = "<group>"; };
+		114F64AD1BE09841000CE3EE /* ScrollTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollTests.h; path = ../../src/ScrollTests.h; sourceTree = "<group>"; };
+		114F64AE1BE09841000CE3EE /* BasicViewTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicViewTests.cpp; path = ../../src/BasicViewTests.cpp; sourceTree = "<group>"; };
+		114F64AF1BE09841000CE3EE /* BasicViewTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicViewTests.h; path = ../../src/BasicViewTests.h; sourceTree = "<group>"; };
+		114F64B31BE09A4E000CE3EE /* xcode */ = {isa = PBXFileReference; lastKnownFileType = folder; name = xcode; path = ../../../proj/xcode; sourceTree = "<group>"; };
+		114F652F1BE0B1D4000CE3EE /* ControlsTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ControlsTest.cpp; path = ../../src/ControlsTest.cpp; sourceTree = "<group>"; };
+		114F65301BE0B1D4000CE3EE /* ControlsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlsTest.h; path = ../../src/ControlsTest.h; sourceTree = "<group>"; };
+		11533B8C1C39096800933145 /* MultiTouchTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiTouchTest.cpp; path = ../../src/MultiTouchTest.cpp; sourceTree = "<group>"; };
+		11533B8D1C39096800933145 /* MultiTouchTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiTouchTest.h; path = ../../src/MultiTouchTest.h; sourceTree = "<group>"; };
 		11576ABF1970AD9100BE66B3 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		1196E3FE1D45ACFD00BEDBAD /* LayoutTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayoutTests.cpp; path = ../src/LayoutTests.cpp; sourceTree = "<group>"; };
-		1196E3FF1D45ACFD00BEDBAD /* LayoutTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LayoutTests.h; path = ../src/LayoutTests.h; sourceTree = "<group>"; };
+		1196E3FE1D45ACFD00BEDBAD /* LayoutTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayoutTests.cpp; path = ../../src/LayoutTests.cpp; sourceTree = "<group>"; };
+		1196E3FF1D45ACFD00BEDBAD /* LayoutTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LayoutTests.h; path = ../../src/LayoutTests.h; sourceTree = "<group>"; };
 		119C4EB71B2391DE006563C5 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		11A00A6A1C09108200DCA5A7 /* CompositingTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CompositingTest.cpp; path = ../src/CompositingTest.cpp; sourceTree = "<group>"; };
-		11A00A6B1C09108200DCA5A7 /* CompositingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompositingTest.h; path = ../src/CompositingTest.h; sourceTree = "<group>"; };
+		11A00A6A1C09108200DCA5A7 /* CompositingTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CompositingTest.cpp; path = ../../src/CompositingTest.cpp; sourceTree = "<group>"; };
+		11A00A6B1C09108200DCA5A7 /* CompositingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompositingTest.h; path = ../../src/CompositingTest.h; sourceTree = "<group>"; };
 		11C895881834977200F7C515 /* libjscre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjscre.a; path = "../blocks/Cinder-Dart/dart-runtime/lib/macosx/libjscre.a"; sourceTree = "<group>"; };
 		11C895891834977200F7C515 /* libdouble_conversion.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdouble_conversion.a; path = "../blocks/Cinder-Dart/dart-runtime/lib/macosx/libdouble_conversion.a"; sourceTree = "<group>"; };
 		11C8958A1834977200F7C515 /* libdart_withcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdart_withcore.a; path = "../blocks/Cinder-Dart/dart-runtime/lib/macosx/libdart_withcore.a"; sourceTree = "<group>"; };
 		11C8958B1834977200F7C515 /* libdart_vm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdart_vm.a; path = "../blocks/Cinder-Dart/dart-runtime/lib/macosx/libdart_vm.a"; sourceTree = "<group>"; };
 		11C8958C1834977200F7C515 /* libdart_lib_withcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdart_lib_withcore.a; path = "../blocks/Cinder-Dart/dart-runtime/lib/macosx/libdart_lib_withcore.a"; sourceTree = "<group>"; };
 		11C8958D1834977200F7C515 /* libdart_builtin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdart_builtin.a; path = "../blocks/Cinder-Dart/dart-runtime/lib/macosx/libdart_builtin.a"; sourceTree = "<group>"; };
-		11F7A0431B2CDD9000D930D0 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../assets; sourceTree = "<group>"; };
+		11F7A0431B2CDD9000D930D0 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../../assets; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
@@ -162,15 +138,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		114F64B41BE09A4E000CE3EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				114F64BA1BE09A4E000CE3EE /* libcinder-view.a */,
-				114F64BC1BE09A4E000CE3EE /* libcinder-view.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,7 +149,7 @@
 		29B97314FDCFA39411CA2CEA /* ViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				114F64B31BE09A4E000CE3EE /* cinder-view.xcodeproj */,
+				114F64B31BE09A4E000CE3EE /* xcode */,
 				29B97315FDCFA39411CA2CEA /* prefix */,
 				080E96DDFE201D6D7F000001 /* Source */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -241,7 +208,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				114F651F1BE0AB6E000CE3EE /* PBXTargetDependency */,
 			);
 			name = ViewTests;
 			productInstallPath = "$(HOME)/Applications";
@@ -268,35 +234,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ViewTests */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 114F64B41BE09A4E000CE3EE /* Products */;
-					ProjectRef = 114F64B31BE09A4E000CE3EE /* cinder-view.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* ViewTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		114F64BA1BE09A4E000CE3EE /* libcinder-view.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libcinder-view.a";
-			remoteRef = 114F64B91BE09A4E000CE3EE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		114F64BC1BE09A4E000CE3EE /* libcinder-view.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libcinder-view.a";
-			remoteRef = 114F64BB1BE09A4E000CE3EE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -326,18 +269,11 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		114F651F1BE0AB6E000CE3EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "cinder-view-mac";
-			targetProxy = 114F651E1BE0AB6E000CE3EE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CINDER_PATH = "$(ROOT_REPO_PATH)/../../../Cinder";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -354,10 +290,11 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
-					"$(ROOT_REPO_PATH)/lib/macosx/$(CONFIGURATION)/libcinder-view.a",
+					"$(ROOT_REPO_PATH)/proj/lib/macosx/$(CONFIGURATION)/libcinder-view.a",
 					"$(CINDER_PATH)/lib/libcinder_d.a",
 				);
 				PRODUCT_NAME = ViewTests;
+				ROOT_REPO_PATH = ../../..;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
 			};
@@ -366,6 +303,7 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CINDER_PATH = "$(ROOT_REPO_PATH)/../../../Cinder";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -380,10 +318,11 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
-					"$(ROOT_REPO_PATH)/lib/macosx/$(CONFIGURATION)/libcinder-view.a",
+					"$(ROOT_REPO_PATH)/proj/lib/macosx/$(CONFIGURATION)/libcinder-view.a",
 					"$(CINDER_PATH)/lib/libcinder.a",
 				);
 				PRODUCT_NAME = ViewTests;
+				ROOT_REPO_PATH = ../../..;
 				STRIP_INSTALLED_PRODUCT = YES;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
